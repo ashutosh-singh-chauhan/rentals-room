@@ -1,7 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
 
-def new(request):
+def home2(request):
     pass
 
