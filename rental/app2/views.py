@@ -1,6 +1,6 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-
-def home2(request):
-    pass
+def new(request):
+    return HttpResponse(' i am app2')
 
